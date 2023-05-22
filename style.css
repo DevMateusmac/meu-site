@@ -63,7 +63,8 @@ strong{
 #profile-picture{
   width: 350px;
   border-radius: 50%;
-  background-color: #4d535959;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.527);
+  display: flex;
 }
 
 #profile-picture img{
@@ -201,7 +202,7 @@ strong{
   .header{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 25px;
     height: 170px;
   }
@@ -218,14 +219,8 @@ strong{
 
   .header{
     width: auto;
-    height: 230px;
     padding: 2px;
     height: 150px;
-  }
-
-  .header a{
-    margin-left: 6px;
-    margin-bottom: 10px;
   }
   
   #profile-picture{
@@ -245,14 +240,34 @@ strong{
 
 
 @media(max-width: 490px){
+
+  .header{
+    padding: 6px;
+  }
+
+  .header a{
+   margin-left: 10px;
+   font-size: 19px;
+  }
+
   .description p{
     text-align: center;
+  }
+
+  .footer p{
+    font-size: 20px;
   }
 }
 
 
 
-@media (max-width: 355px){
+@media (max-width: 365px){
+
+  .description p{
+    text-align: justify;
+    font-size: 20px;
+  }
+
 
   #profile-picture{
     width: auto;
@@ -260,6 +275,7 @@ strong{
 
   .project-section  h2{
     text-align: center;
+    font-size: 22px;
   }
 
   .description p{
