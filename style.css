@@ -45,7 +45,7 @@ body{
   justify-content: space-evenly;
   align-items: center;
   background-color: #467474;
-  padding: 45px;
+  padding: 15px;
   min-height: 700px;
 }
 
@@ -232,6 +232,7 @@ strong{
   
   .description p{
     width: auto;
+    text-align: center;
     font-size: 20px;
   }
 
@@ -250,17 +251,22 @@ strong{
   }
 
   .header a{
-   margin-left: 25px;
+   margin-left: 15px;
    font-size: 16px;
   }
 
   #profile-picture{
-    width: 290px;
+    width: 260px;
+  }
+
+  .description{
+    min-height: 400px;
   }
 
   .description p{
     font-size: 16px;
     text-align: center;
+    margin-top: 30px;
   }
 
   .project-section  h2{
@@ -273,15 +279,15 @@ strong{
 
 
   .who-am-I h2{
-    font-size: 20px;
-  }
-
-  .who-am-I p{
     font-size: 18px;
   }
 
+  .who-am-I p{
+    font-size: 16px;
+  }
+
   .footer p{
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -290,11 +296,15 @@ strong{
 @media (max-width: 380px){
 
   .description p{
-    text-align: center;
+    font-size: 13px;
   }
 
-
   #profile-picture{
-    width: auto;
+    width: 220px;
+  }
+
+  #my-projects{
+    display: flexbox;
+    flex-direction: column;
   }
 }
