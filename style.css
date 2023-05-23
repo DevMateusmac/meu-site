@@ -84,7 +84,7 @@ strong{
 
 .project-section  h2{
   color: #d3d3d3;
-  font-size: 30px;
+  font-size: 28px;
   margin-top: 30px;
   font-weight: 100;
 }
@@ -95,7 +95,7 @@ strong{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 10px;
+  padding: 15px;
 }
 
 
@@ -139,7 +139,7 @@ strong{
   justify-content: space-evenly;
   background-color: #4D5359;
   color: lightgrey;
-  font-size: 30px;
+  font-size: 28px;
   height: 135px;
   text-align: center;
 }
@@ -191,7 +191,7 @@ strong{
 
 @media (max-width: 1024px){
   .description p{
-    width: 650px;
+    width: 628px;
     font-size: 30px;
   }
 }
@@ -207,9 +207,12 @@ strong{
     height: 170px;
   }
 
+  #profile-picture{
+    width: 325px;
+  }
   .description p{
-    width: auto;
-    font-size: 25px;
+    width: 550px;
+    font-size: 26px;
   }
 }
 
@@ -228,6 +231,7 @@ strong{
   }
   
   .description p{
+    width: auto;
     font-size: 20px;
   }
 
@@ -246,12 +250,34 @@ strong{
   }
 
   .header a{
-   margin-left: 10px;
-   font-size: 19px;
+   margin-left: 25px;
+   font-size: 16px;
+  }
+
+  #profile-picture{
+    width: 290px;
   }
 
   .description p{
+    font-size: 16px;
     text-align: center;
+  }
+
+  .project-section  h2{
+    font-size: 20px;
+  }
+
+  #my-projects a{
+    font-size: 18px;
+  }
+
+
+  .who-am-I h2{
+    font-size: 20px;
+  }
+
+  .who-am-I p{
+    font-size: 18px;
   }
 
   .footer p{
@@ -261,24 +287,14 @@ strong{
 
 
 
-@media (max-width: 365px){
+@media (max-width: 380px){
 
   .description p{
-    text-align: justify;
-    font-size: 20px;
+    text-align: center;
   }
 
 
   #profile-picture{
     width: auto;
-  }
-
-  .project-section  h2{
-    text-align: center;
-    font-size: 22px;
-  }
-
-  .description p{
-    text-align: left;
   }
 }
