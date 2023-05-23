@@ -74,7 +74,7 @@ strong{
 
 .project-section{
   background-color: #91A8A4;
-  height: 350px;
+  height: 360px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -210,6 +210,7 @@ strong{
   #profile-picture{
     width: 325px;
   }
+  
   .description p{
     width: 550px;
     font-size: 26px;
@@ -218,7 +219,7 @@ strong{
 
 
 
-@media (max-width: 623px){
+@media (max-width: 624px){
 
   .header{
     width: auto;
